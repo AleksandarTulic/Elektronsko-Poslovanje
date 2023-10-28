@@ -1,0 +1,461 @@
+{
+	"info": {
+		"_postman_id": "17942317-fe4a-4110-9dd3-7ad285bbaa98",
+		"name": "MyBlockChain",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19002486"
+	},
+	"item": [
+		{
+			"name": "Get Chain Node 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5001/get-chain",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"get-chain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Chain Node 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5002/get-chain",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"get-chain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Chain Node 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5003/get-chain",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5003",
+					"path": [
+						"get-chain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mine a block Node 1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"privateKey\": \"-----BEGIN RSA PRIVATE KEY-----\\n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\\n-----END RSA PRIVATE KEY-----\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5001/mine-block",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"mine-block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mine a block Node 2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"privateKey\": \"-----BEGIN RSA PRIVATE KEY-----\\n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\\n-----END RSA PRIVATE KEY-----\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/mine-block",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"mine-block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mine a block Node 3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"privateKey\": \"-----BEGIN RSA PRIVATE KEY-----\\n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\\n-----END RSA PRIVATE KEY-----\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5003/mine-block",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5003",
+					"path": [
+						"mine-block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send coins Node 1 to Node 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sender\": \"36ff9977821fcb303d730cc978568394919293c074f8678f6342ba6d50e73a88\",\r\n    \"receiver\": \"9cb530c590ac66e8af949d27d306e93ebc1697574dcffe0fabd43a0a1319ce9e\",\r\n    \"amount\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5001/add-transaction",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"add-transaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send coins Node 2 to Node 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sender\": \"9cb530c590ac66e8af949d27d306e93ebc1697574dcffe0fabd43a0a1319ce9e\",\r\n    \"receiver\": \"acd502e3887e341d9d9d55969f5155cbe0cab0c78ed6e3f6ec0623fa7c13bfec\",\r\n    \"amount\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/add-transaction",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"add-transaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send coins Node 2 to Node 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sender\": \"9cb530c590ac66e8af949d27d306e93ebc1697574dcffe0fabd43a0a1319ce9e\",\r\n    \"receiver\": \"36ff9977821fcb303d730cc978568394919293c074f8678f6342ba6d50e73a88\",\r\n    \"amount\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/add-transaction",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"add-transaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send coins Node 3 to Node 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sender\": \"acd502e3887e341d9d9d55969f5155cbe0cab0c78ed6e3f6ec0623fa7c13bfec\",\r\n    \"receiver\": \"36ff9977821fcb303d730cc978568394919293c074f8678f6342ba6d50e73a88\",\r\n    \"amount\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5003/add-transaction",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5003",
+					"path": [
+						"add-transaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Zelimir Connect Nodes Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nodes\":[\"http://127.0.0.1:5002\",\r\n             \"http://127.0.0.1:5003\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5001/connect-node",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"connect-node"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bojan Connect Nodes Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nodes\":[\"http://127.0.0.1:5001\",\r\n             \"http://127.0.0.1:5003\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/connect-node",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"connect-node"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jovana Connect Nodes Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nodes\":[\"http://127.0.0.1:5001\",\r\n             \"http://127.0.0.1:5002\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5003/connect-node",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5003",
+					"path": [
+						"connect-node"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Zelimir Replace Chain Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5001/replace-chain",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"replace-chain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bojan Replace Chain Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5002/replace-chain",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"replace-chain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jovana Replace Chain Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5003/replace-chain",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5003",
+					"path": [
+						"replace-chain"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

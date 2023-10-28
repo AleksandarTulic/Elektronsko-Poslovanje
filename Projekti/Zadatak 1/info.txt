@@ -1,0 +1,17 @@
+dodatno znacenje meni:
+	- quit - clients disconnect from broker 
+		- svaka sljedeca komanda se salje ali nema nikakvo dejstvo
+		- ne utice na MyClient
+	- END - zavrsetak rada, salje se quit svima, i gotov rad main-a
+
+
+Odgovor na pitanja:
+	- Razmisliti koji QoS treba da se koristi za poruke u sistemu
+		- koristio sam qos = 1 jer da bi neka masina nastavila sa radom zavisi od materijala(informacija) od samo jedne prethodne masine
+		- ako informacije ne stignu moguce je da neka masina ostane stalno u stanju idle
+		- a nisam koristio qos = 2 jer mnogo vise podataka se salje
+
+	- Poigrati se sa performansama sistema na način da se kreira veliki broj materijala za obradu, a smanji se vrijeme obrade. Da li performanse zavise od QoS?
+		- U zavisnosti koji qos koristimo zavisi kakve cemo performanse imati
+		- Razlog: Pa ako pogledate na slajdu 18 mozete viditi na dijagramima da mnogo vise podataka se razmjenjuje kako vrijednost qos-a se povecava
+			- naravno ovo nece predstavljati problem nad nekom manjom kolicinom podataka, ali na vecim nizovima dolazi do izrazaja

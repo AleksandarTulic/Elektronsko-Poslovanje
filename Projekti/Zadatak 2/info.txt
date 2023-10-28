@@ -1,0 +1,4 @@
+Nisam sacuvao u json formatu - gresku napravio pri citanju teksta
+Da li smo trebali sacuvati u fajlu blockain zato sto cemo ponovo koristiti informacije ako restartujemo aplikaciju?
+	- tj. ako smo npr. unijeli 4 bloka da li onda kada ponovo pokrenemo aplikaciju i napravimo novi blok da li to onda treba da bude blok 5 ili ponovo kreiramo blockchain ispocetka.
+	- ja sam kreirao blokchain ispocetka.

@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "bf5438d5-8db7-416f-be62-59dd491b341d",
+		"name": "EP - Lab7 - MyBlockChain",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19002486"
+	},
+	"item": [
+		{
+			"name": "mine-block",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"land_surface\": 200,\r\n    \"sale_price\": 14000.99,\r\n    \"previous_owner\": \"Aleksandar Tulic\",\r\n    \"current_owner\": \"Jovica Tulic\",\r\n    \"date_of_transaction\": \"2023-05-12\",\r\n    \"address\": \"Vijacani br. 52\",\r\n    \"publicKey\": \"-----BEGIN PUBLIC KEY-----\\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAsHv8x5hDIAIkr9Q/7CEx\\n/Rn96F9WzK/TGIVnn/3z5X2Iv0t0FRY/j7wJI8wQc+KkR4rT+hKytqaB7dL+0IRT\\ndik//86UbU6kbIUjsw9FFybSWVrnuUcclMKjfM01y91uMWve+l8vAyz5PMJZnhXd\\nn8mRGB84MtpMgROF6bcQFeW98UfuQKEzibUJibkHWD1ETuOWbXzTUacpDlr0XjHF\\nYbQ9g8y3Pgy+sPQ52CPbv65ZVQRoVrkutWvhQth9TsWP2aKHF0gHlwUC5WIyNnZV\\nFdv6LGpnFne1eGS8CbxWW/OpBtsaEaGwNwaA51dlXy8SZ8JFNd3z5ngh6LfD4CEg\\nBecoBe6CFXhQOfJWO46msmVhw0TOsfzr2uqCFuj4JHOf575sNJm5hO7axSMMfuAV\\nKeWDFifC6odRVp/KwpC3kdqmLS1LS9RHu12T/gGtppmg8bSPFCOPUBvuqli7HrRL\\nv+S9RdLA5UVoR57XID4Ps1Uf/RDbezi4yrHRw5UuQcvHAgMBAAE=\\n-----END PUBLIC KEY-----\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/mine-block",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"mine-block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mine-block Copy 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"land_surface\": 50,\r\n    \"sale_price\": 2344.99,\r\n    \"previous_owner\": \"Petar Petrovic\",\r\n    \"current_owner\": \"Jovana Jovanovic\",\r\n    \"date_of_transaction\": \"2023-01-01\",\r\n    \"address\": \"Drenova br. 52\",\r\n    \"publicKey\": \"-----BEGIN PUBLIC KEY-----\\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAsHv8x5hDIAIkr9Q/7CEx\\n/Rn96F9WzK/TGIVnn/3z5X2Iv0t0FRY/j7wJI8wQc+KkR4rT+hKytqaB7dL+0IRT\\ndik//86UbU6kbIUjsw9FFybSWVrnuUcclMKjfM01y91uMWve+l8vAyz5PMJZnhXd\\nn8mRGB84MtpMgROF6bcQFeW98UfuQKEzibUJibkHWD1ETuOWbXzTUacpDlr0XjHF\\nYbQ9g8y3Pgy+sPQ52CPbv65ZVQRoVrkutWvhQth9TsWP2aKHF0gHlwUC5WIyNnZV\\nFdv6LGpnFne1eGS8CbxWW/OpBtsaEaGwNwaA51dlXy8SZ8JFNd3z5ngh6LfD4CEg\\nBecoBe6CFXhQOfJWO46msmVhw0TOsfzr2uqCFuj4JHOf575sNJm5hO7axSMMfuAV\\nKeWDFifC6odRVp/KwpC3kdqmLS1LS9RHu12T/gGtppmg8bSPFCOPUBvuqli7HrRL\\nv+S9RdLA5UVoR57XID4Ps1Uf/RDbezi4yrHRw5UuQcvHAgMBAAE=\\n-----END PUBLIC KEY-----\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/mine-block",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"mine-block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mine-block Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"land_surface\": 1200,\r\n    \"sale_price\": 100000.00,\r\n    \"previous_owner\": \"Aleksandar Tulic\",\r\n    \"current_owner\": \"Dragana Draganovic\",\r\n    \"date_of_transaction\": \"2023-02-02\",\r\n    \"address\": \"Mravica br. 52\",\r\n    \"publicKey\": \"-----BEGIN PUBLIC KEY-----\\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAsHv8x5hDIAIkr9Q/7CEx\\n/Rn96F9WzK/TGIVnn/3z5X2Iv0t0FRY/j7wJI8wQc+KkR4rT+hKytqaB7dL+0IRT\\ndik//86UbU6kbIUjsw9FFybSWVrnuUcclMKjfM01y91uMWve+l8vAyz5PMJZnhXd\\nn8mRGB84MtpMgROF6bcQFeW98UfuQKEzibUJibkHWD1ETuOWbXzTUacpDlr0XjHF\\nYbQ9g8y3Pgy+sPQ52CPbv65ZVQRoVrkutWvhQth9TsWP2aKHF0gHlwUC5WIyNnZV\\nFdv6LGpnFne1eGS8CbxWW/OpBtsaEaGwNwaA51dlXy8SZ8JFNd3z5ngh6LfD4CEg\\nBecoBe6CFXhQOfJWO46msmVhw0TOsfzr2uqCFuj4JHOf575sNJm5hO7axSMMfuAV\\nKeWDFifC6odRVp/KwpC3kdqmLS1LS9RHu12T/gGtppmg8bSPFCOPUBvuqli7HrRL\\nv+S9RdLA5UVoR57XID4Ps1Uf/RDbezi4yrHRw5UuQcvHAgMBAAE=\\n-----END PUBLIC KEY-----\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/mine-block",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"mine-block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mine-block Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"land_surface\": 311,\r\n    \"sale_price\": 9001.45,\r\n    \"previous_owner\": \"Jovana Jovanovic\",\r\n    \"current_owner\": \"Jovica Tulic\",\r\n    \"date_of_transaction\": \"2023-03-03\",\r\n    \"address\": \"Drenova br. 11\",\r\n    \"publicKey\": \"-----BEGIN PUBLIC KEY-----\\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAsHv8x5hDIAIkr9Q/7CEx\\n/Rn96F9WzK/TGIVnn/3z5X2Iv0t0FRY/j7wJI8wQc+KkR4rT+hKytqaB7dL+0IRT\\ndik//86UbU6kbIUjsw9FFybSWVrnuUcclMKjfM01y91uMWve+l8vAyz5PMJZnhXd\\nn8mRGB84MtpMgROF6bcQFeW98UfuQKEzibUJibkHWD1ETuOWbXzTUacpDlr0XjHF\\nYbQ9g8y3Pgy+sPQ52CPbv65ZVQRoVrkutWvhQth9TsWP2aKHF0gHlwUC5WIyNnZV\\nFdv6LGpnFne1eGS8CbxWW/OpBtsaEaGwNwaA51dlXy8SZ8JFNd3z5ngh6LfD4CEg\\nBecoBe6CFXhQOfJWO46msmVhw0TOsfzr2uqCFuj4JHOf575sNJm5hO7axSMMfuAV\\nKeWDFifC6odRVp/KwpC3kdqmLS1LS9RHu12T/gGtppmg8bSPFCOPUBvuqli7HrRL\\nv+S9RdLA5UVoR57XID4Ps1Uf/RDbezi4yrHRw5UuQcvHAgMBAAE=\\n-----END PUBLIC KEY-----\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/mine-block",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"mine-block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mine-block Copy 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"land_surface\": 750,\r\n    \"sale_price\": 120055.99,\r\n    \"previous_owner\": \"Darko Darkovic\",\r\n    \"current_owner\": \"Ivana Ivanovic\",\r\n    \"date_of_transaction\": \"2023-04-04\",\r\n    \"address\": \"Strpci br. 152\",\r\n    \"publicKey\": \"-----BEGIN PUBLIC KEY-----\\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAsHv8x5hDIAIkr9Q/7CEx\\n/Rn96F9WzK/TGIVnn/3z5X2Iv0t0FRY/j7wJI8wQc+KkR4rT+hKytqaB7dL+0IRT\\ndik//86UbU6kbIUjsw9FFybSWVrnuUcclMKjfM01y91uMWve+l8vAyz5PMJZnhXd\\nn8mRGB84MtpMgROF6bcQFeW98UfuQKEzibUJibkHWD1ETuOWbXzTUacpDlr0XjHF\\nYbQ9g8y3Pgy+sPQ52CPbv65ZVQRoVrkutWvhQth9TsWP2aKHF0gHlwUC5WIyNnZV\\nFdv6LGpnFne1eGS8CbxWW/OpBtsaEaGwNwaA51dlXy8SZ8JFNd3z5ngh6LfD4CEg\\nBecoBe6CFXhQOfJWO46msmVhw0TOsfzr2uqCFuj4JHOf575sNJm5hO7axSMMfuAV\\nKeWDFifC6odRVp/KwpC3kdqmLS1LS9RHu12T/gGtppmg8bSPFCOPUBvuqli7HrRL\\nv+S9RdLA5UVoR57XID4Ps1Uf/RDbezi4yrHRw5UuQcvHAgMBAAE=\\n-----END PUBLIC KEY-----\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/mine-block",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"mine-block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-chain",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/get-chain",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"get-chain"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
